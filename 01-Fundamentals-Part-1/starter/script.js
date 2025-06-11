@@ -66,7 +66,7 @@ if (population > finlandPopulation){
 
 
 // CHALLENGE PART 1
-
+/*
 let markKgs = 78;
 let markHeight = 169 / 100;
 let johnKgs = 92;
@@ -90,6 +90,8 @@ if (johnBMI > markBMI) {
     console.log ("Jhon has more BMI than Mark.")
 } else {
     console.log ("Mark has more BMI than Jhon.")
-};
+}; */
+
+
 
 
