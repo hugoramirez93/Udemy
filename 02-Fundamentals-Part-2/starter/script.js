@@ -508,14 +508,14 @@ const john = {
 // };
 
 
-const hugo = [
-    "Hugo",
-    "Ramirez",
-    2037 - 1993,
-    "teacher",
-    ["Michael", "Steven", "Peter"],
-    true,    
-];
+// const hugo = [
+//     "Hugo",
+//     "Ramirez",
+//     2037 - 1993,
+//     "teacher",
+//     ["Michael", "Steven", "Peter"],
+//     true,    
+// ];
 /*
 const types = []
 
@@ -532,7 +532,7 @@ for (let i = 0; i < hugo.length; i++) {
 
 console.log(types);
 */
-
+/*
 const years = [1991, 2007, 1969, 2020];
 const ages = [];
 
@@ -542,10 +542,80 @@ for (let i = 0; i < years.length; i++) {
 
 console.log(ages);
 
-// Continue and Break
+
+
+
+// CONTINUE AND BREAK
 console.log("---- ONLY STRINGS ----")
 for (let i = 0; i < hugo.length; i++) {
     if (typeof hugo[i] !== "string") continue;
     console.log(hugo[i], typeof hugo[i]);
 }
- 
+
+console.log("---- BREAK WITH NUMBER ----")
+for (let i = 0; i < hugo.length; i++) {
+    if (typeof hugo[i] === "number") break;
+    console.log(hugo[i], typeof hugo[i]);
+}
+ */
+
+// REVERSE LOOP 
+const hugo = [
+    "Hugo",
+    "Ramirez",
+    2037 - 1993,
+    "teacher",
+    ["Michael", "Steven", "Peter"],
+    true,    
+];
+
+// for (let i = hugo.length - 1;i >= 0; i--){
+//   console.log(i, hugo[i]);
+// }
+
+// for (let excercise = 1; excercise <= 3; excercise++){
+//   console.log(`-------- Starting excercise ${excercise}`);
+
+//   for (let rep = 1; rep <= 5; rep++) {
+//     console.log(`Excercise ${excercise} Lifting weight repetition ${rep} 🏋️`)
+//   }
+// }
+
+
+// WHILE LOOP
+
+// for (let rep = 1; rep <= 10; rep++){
+//     console.log(`Lifting weights repetition ${rep} 🏋️`);
+// }
+
+// let rep = 1;
+// while (rep <= 10) {
+  // console.log(`WHILE: Lifting weights repetition ${rep} 🏋️`);
+//   rep++;
+// }
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+// console.log(dice);
+
+// while (dice !== 6) {
+//   console.log(`You rolled a ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6){
+//     console.log(`Loop is about to end...`);
+//   }
+// };
+
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const arr = [];
+
+let calcAverage = function(arr) {
+  let   
+}
+
+
+
+
